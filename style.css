@@ -504,7 +504,6 @@ body.light-theme {
 }
 
 a {
-
     text-decoration: none;
 }
 
@@ -527,7 +526,6 @@ a {
 }
 
 .cards {
-
     position: relative;
     height: 400px;
     width: 320px;
@@ -556,7 +554,6 @@ a {
 }
 
 .card .image {
-
     display: flex;
     justify-content: space-between;
 }
@@ -693,7 +690,6 @@ a {
     display: flex;
     justify-content: center;
 }
-
 
 .contact_me {
     width: 100%;
@@ -890,7 +886,6 @@ i {
     }
 
     .cards label {
-
         position: absolute;
         width: 280px;
         left: 0;
