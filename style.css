@@ -607,17 +607,14 @@ a {
 }
 
 .infos span {
-
     display: block;
 }
 
 .infos .name {
-
     font-size: 25px;
     text-align: center;
     color: var(--current-color1);
     margin-bottom: 10px;
-    padding-left: 10%;
     transition: all .6s ease;
 }
 
@@ -633,7 +630,6 @@ a {
 }
 
 .card .btn-contact {
-
     width: 50%;
     height: 60px;
     margin-left: auto;
@@ -653,7 +649,6 @@ a {
 }
 
 .card .socials {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
