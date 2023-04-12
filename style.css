@@ -80,7 +80,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
 section {
@@ -107,7 +106,6 @@ max-width: 968px; */
     color: var(--text-color);
     transition: .4s;
     height: 100%;
-    /* for light mode animation */
 }
 
 h1,
@@ -135,9 +133,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-
-/*============重製CSS=========*/
-
 
 /*================主頁===============*/
 #myName {
@@ -235,7 +230,6 @@ img {
 
 
 .home_scroll {
-    /* display: none; */
     display: flex;
     justify-content: center;
     margin-top: 5%;
