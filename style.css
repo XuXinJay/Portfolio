@@ -770,6 +770,7 @@ i {
     border: 1px solid var(--text-color);
     padding: 10px;
     color: var(--title-color);
+    resize:none;
 }
 
 .contact_btn {
