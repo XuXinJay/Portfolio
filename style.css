@@ -100,8 +100,6 @@ textarea {
 }
 
 body {
-    /* width: 100%;
-max-width: 968px; */
     background-color: var(--body-color);
     color: var(--text-color);
     transition: .4s;
@@ -1068,5 +1066,4 @@ i {
         margin-left: 3%;
         border-right: none;
     }
-
 }
