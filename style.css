@@ -520,7 +520,7 @@ body.light-theme {
 }
 
 .grid-item {
-  background-color: var(--container-color);
+  background-color: hsl(219, 32%, 12%);
   font-size: 30px;
   text-align: center;
   width: 300px;
