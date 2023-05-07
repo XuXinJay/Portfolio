@@ -1,295 +1,449 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>個人作品網頁</title>
     <script src="./JS.js"></script>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <!-- <script src="./jquery-3.6.3.min.js"></script> -->
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header class="header" id="header">
-        <div id="nav">
-            <nav class="nav container">
-                <a href="#" class="nav_logo">Jack</a>
-                <i class="uil uil-moon change-theme" id="theme-button"></i>
-            </nav>
-        </div>
-        <div class="nav_menu">
-            <ul class="nav_list">
-                <li class="nav_item"><a href="" class="nav_link active-link">
-                        <i class="uil uil-estate"></i>
-                    </a>
-                </li>
-                <li class="nav_item"><a href="#" class="nav_link">
-                        <i class="uil uil-user"></i>
-                        <!-- <h6>關於我</h6> -->
-                    </a>
-                </li>
-                <li class="nav_item"><a href="#skill" class="nav_link">
-                        <i class="uil uil-book-open"></i>
-                        <!-- <h6>技能</h6> -->
-                    </a>
-                </li>
-                <li class="nav_item"><a href="#Portfolio" class="nav_link">
-                    <i class="uil uil-bag"></i>
-                        <!-- <h6>作品</h6> -->
-                    </a>
-                </li>
-                <li class="nav_item"><a href="#message" class="nav_link">
-                        <i class="uil uil-message"></i>
-                        <!-- <h6>聯絡我</h6> -->
-                    </a>
-                </li>
-
-            </ul>
-        </div>
+      <div id="nav">
+        <nav class="nav container">
+          <a href="#" class="nav_logo">Jack</a>
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+        </nav>
+      </div>
+      <div class="nav_menu">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="" class="nav_link active-link">
+              <i class="uil uil-estate"></i>
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#" class="nav_link">
+              <i class="uil uil-user"></i>
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#skill" class="nav_link">
+              <i class="uil uil-book-open"></i>
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#Portfolio" class="nav_link">
+              <i class="uil uil-bag"></i>
+            </a>
+          </li>
+          <li class="nav_item">
+            <a href="#message" class="nav_link">
+              <i class="uil uil-message"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main class="main">
-        <section>
-            <div class="home_container container">
-                <div class="home_content">
-                    <h1 class="home_title" id="about">
-                        Hi,I'm XinJie
-                        <br>
-                        Frontend Developer
-                    </h1>
-                </div>
-            </div>
-            <div id="home_about">
-                <div class="home_img">
-                    <img id="myimg" src="./img/JACK_PNG.png" alt="">
-                </div>
-                <div class="home_data">
-
-                    <p class="home_text">具備獨立思考的能力,擁有團隊合作的精神，面對不熟悉的問題從不感到畏懼，並樂愛從解決問題中獲得成就感，堅信勤能補拙,學無止境的道理，秉持一期一會的態度勇往直前。</p>
-                    <a href="#message" class="button button--flex">
-                        聯絡我<i class="uil uil-envelope button__icon"></i>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <div class="home_scroll">
-            <a href="#skill" class="home_scroll-button button--flex">
-                <i class="uil uil-mouse-alt-2 home_scroll-mouse"></i>
-                <span class="home_scroll-name">往下滑</span>
-                <i class="uil uil-arrow-down home_scroll-arrow"></i>
+      <section>
+        <div class="home_container container">
+          <div class="home_content">
+            <h1 class="home_title" id="about">
+              Hi,I'm XinJie
+              <br />
+              Frontend Developer
+            </h1>
+          </div>
+        </div>
+        <div id="home_about">
+          <div class="home_img">
+            <img id="myimg" src="./img/JACK_PNG.png" alt="" />
+          </div>
+          <div class="home_data">
+            <p class="home_text">
+              具備獨立思考的能力,擁有團隊合作的精神，面對不熟悉的問題從不感到畏懼，並樂愛從解決問題中獲得成就感，堅信勤能補拙,學無止境的道理，秉持一期一會的態度勇往直前。
+            </p>
+            <a href="#message" class="button button--flex">
+              聯絡我<i class="uil uil-envelope button__icon"></i>
             </a>
+          </div>
         </div>
-        <!-- ------------------技能------------------- -->
-        <section class="skill_title">
-            <p id="skill">我的專長</p>
-            <h1>技能</h1>
-            <div id="test2">
-                <div id="test">
-                    <div class="skill_container">
-                        <h3 class="skill_titles">
-                            <h2>
-                                <前端>
-                            </h2>
-                        </h3>
-                        <div class="skill_info">
-                            <div class="skill_data">
-                                <img src="./img/html.svg" alt="img">
-                                <h3 class="skill_name">HTML</h3>
-                            </div>
-
-                            <div class="skill_data">
-                                <img src="./img/css.svg" alt="img">
-                                <h3 class="skill_name">CSS</h3>
-                            </div>
-
-                            <div class="skill_data">
-                                <img src="./img/javascript.svg" alt="img">
-                                <h3 class="skill_name">JS</h3>
-                            </div>
-
-                            <div class="skill_data">
-                                <img src="./img/react(白底).svg" alt="img">
-                                <h3 class="skill_name">React</h3>
-                            </div>
-
-                            <div class="skill_data">
-                                <img src="./img/bootstrap-5.svg" alt="img">
-                                <h3 class="skill_name">Bootstrap</h3>
-                            </div>
-
-                            <div class="skill_data">
-                                <img src="./img/jquery.svg" alt="img">
-                                <h3 class="skill_name">jQuey</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div id="test" class="border_line">
-                    <div class="skill_container">
-                        <h3 class="skill_titles">
-                            <h2>
-                                <後端>
-                            </h2>
-                        </h3>
-                        <div class="skill_info skill_RWD">
-                            <div class="skill_data">
-                                <img src="./img/php.svg" alt="img">
-                                <h3 class="skill_name">php</h3>
-                            </div>
-
-                            <div class="skill_data">
-                                <img src="./img/python.svg" alt="img">
-                                <h3 class="skill_name">Python</h3>
-                            </div>
-
-                            <div class="skill_data">
-                                <img src="./img/mysql.svg" alt="img">
-                                <h3 class="skill_name">MYSQL</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-        <div class="Portfolio_title" id="Portfolio">
-            <h1>作品集</h1>
-        </div>
-
-        <section class="Carousel">
-            <div class=".container_Carousel">
-
-
-                <input type="radio" name="slider" class="d-none" id="s1" checked>
-                <input type="radio" name="slider" class="d-none" id="s2">
-                <input type="radio" name="slider" class="d-none" id="s3">
-
-                <div class="cards">
-                    <label for="s1" id="slide1">
-                        <div class="card">
-                            <div class="image">
-                                <img src="./img/Pomodoro.png" alt="">
-
-                            </div>
-                            <div class="infos">
-                                <span class="name">番茄鐘</span>
-                                <span class="lorem">以HTML、CSS、JavaScript設計而成。
-                                 主要功能為「倒數計時」、「計算回合數」、「明/暗模式」。</span>
-                            </div>
-                            <a href="https://xuxinjay.github.io/Pomodoro/" class="btn-contact" target="_blank">展示</a>
-
-                        </div>
-                    </label>
-
-                    <label for="s2" id="slide2">
-                        <div class="card">
-                            <div class="image">
-                                <img src="./img/Gourmet-Draw.png" alt="">
-
-                            </div>
-                            <div class="infos">
-                                <span class="name">美食抽籤地圖</span>
-                                <span class="lorem">以HTML、CSS、JavaScript設計而成，導入GoogleMap API，主要功能為「查詢餐廳」、「顯示評價，步行距離等相關資料」、「亂數抽籤」。</span>
-                            </div>
-                            <a href="https://xuxinjay.github.io/Gourmet-Draw/" class="btn-contact" target="_blank">展示</a>
-
-                        </div>
-                    </label>
-
-                    <label for="s3" id="slide3">
-                        <div class="card">
-                            <div class="image">
-                                <img src="./img/TodoList.PNG" alt="">
-
-                            </div>
-                            <div class="infos">
-                                <span class="name">待辦清單</span>
-                                <span class="lorem">採用React框架設計而成，內容以Hooks功能編寫，並以CSS設計整體外觀，清單內容由MySQL儲存，主要功能為「新增待辦事項」、「編輯」、「刪除」。</span>
-                            </div>
-                            <a href="https://xuxinjay.github.io/Todolist-React/" class="btn-contact" target="_blank">展示</a>
-
-                        </div>
-                    </label>
+      </section>
+      <div class="home_scroll">
+        <a href="#skill" class="home_scroll-button button--flex">
+          <i class="uil uil-mouse-alt-2 home_scroll-mouse"></i>
+          <span class="home_scroll-name">往下滑</span>
+          <i class="uil uil-arrow-down home_scroll-arrow"></i>
+        </a>
+      </div>
+      <!-- ------------------技能------------------- -->
+      <section class="skill_title">
+        <p id="skill">我的專長</p>
+        <h1>技能</h1>
+        <div id="test2">
+          <div class="skill_flax skill_flax_one">
+            <div class="skill_container">
+              <h2 class="skill_titles">前端</h2>
+              <div class="skill_info">
+                <div class="skill_data">
+                  <img src="./img/html.svg" alt="img" />
+                  <h3 class="skill_name">HTML</h3>
                 </div>
 
+                <div class="skill_data">
+                  <img src="./img/css.svg" alt="img" />
+                  <h3 class="skill_name">CSS</h3>
+                </div>
+
+                <div class="skill_data">
+                  <img src="./img/javascript.svg" alt="img" />
+                  <h3 class="skill_name">JS</h3>
+                </div>
+
+                <div class="skill_data">
+                  <img src="./img/react(白底).svg" alt="img" />
+                  <h3 class="skill_name">React</h3>
+                </div>
+
+                <div class="skill_data">
+                  <img src="./img/bootstrap-5.svg" alt="img" />
+                  <h3 class="skill_name">Bootstrap</h3>
+                </div>
+
+                <div class="skill_data">
+                  <img src="./img/jquery.svg" alt="img" />
+                  <h3 class="skill_name">jQuey</h3>
+                </div>
+              </div>
             </div>
-        </section>
+          </div>
+          <div class="border_line skill_flax skill_flax_two">
+            <div class="skill_container">
+              <h2 class="skill_titles">後端</h2>
+              <div class="skill_info skill_RWD">
+                <div class="skill_data">
+                  <img src="./img/php.svg" alt="img" />
+                  <h3 class="skill_name">php</h3>
+                </div>
 
-        <section class="contact_bolck">
-            <div class="contact_me">
-                <h1 class="item1" id="message">聯絡我</h1>
-                <div class="item2">
-                    <div class="contact_img">
-                        <i class="uil uil-envelope ui_img"></i>
-                        <div>
-                            <h3>信箱</h3>
-                            <p>vv19950429@gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="contact_img">
-                        <i class="uil uil-phone ui_img"></i>
-                        <div>
-                            <h3>電話</h3>
-                            <p>0900-000-000</p>
-                        </div>
+                <div class="skill_data">
+                  <img src="./img/python.svg" alt="img" />
+                  <h3 class="skill_name">Python</h3>
+                </div>
 
-                    </div>
-                    <div class="contact_img">
-                        <i class="uil uil-location-point ui_img"></i>
-                        <div>
-                            <h3>地址</h3>
-                            <p>台中市</p>
-                        </div>
+                <div class="skill_data">
+                  <img src="./img/mysql.svg" alt="img" />
+                  <h3 class="skill_name">MYSQL</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                    </div>
-                    <!-- <div class="contact_img">
+      <div class="Portfolio_title" id="Portfolio">
+        <h1>作品集</h1>
+      </div>
+
+      <section class="tabs_box">
+        <div class="tabs">
+          <input
+            type="radio"
+            class="tabs_radio"
+            name="tabs-example"
+            id="tab1"
+            checked
+          />
+          <label for="tab1" class="tabs_label"> 全部 </label>
+          <div class="tabs_content">
+            <div class="grid-box">
+              <div class="grid-container">
+                <a
+                  class="grid-item"
+                  href="https://xuxinjay.github.io/Pomodoro/"
+                  target="_blank"
+                >
+                  <img class="grid-img" src="./img/Pomodoro.png" alt="" />
+                  <div class="grid-text infos">
+                    <span class="name">番茄鐘</span>
+                    <span class="lorem"
+                      >以HTML、CSS、JavaScript設計而成。
+                      主要功能為「倒數計時」、「計算回合數」、「明/暗模式」。</span
+                    >
+                  </div>
+                </a>
+                <a
+                  class="grid-item"
+                  href="https://xuxinjay.github.io/Todolist-React/"
+                  target="_blank"
+                >
+                  <img class="grid-img" src="./img/TodoList.PNG" alt="" />
+                  <div class="grid-text infos">
+                    <span class="name">待辦清單</span>
+                    <span class="lorem"
+                      >採用React框架設計，內容以function
+                      Hooks編寫，並以CSS設計整體外觀，清單內容存於本地存儲，主要功能為「新增待辦事項」、「編輯」、「刪除」。</span
+                    >
+                  </div>
+                </a>
+                <a
+                  class="grid-item"
+                  href="https://xuxinjay.github.io/Gourmet-Draw/"
+                  target="_blank"
+                >
+                  <img class="grid-img" src="./img/Gourmet-Draw.png" alt="" />
+                  <div class="grid-text infos">
+                    <span class="name">美食抽籤地圖</span>
+                    <span class="lorem"
+                      >以HTML、CSS、JavaScript設計而成，導入GoogleMap
+                      API，主要功能為「查詢餐廳」、「顯示評價，步行距離等相關資料」、「亂數抽籤」。</span
+                    >
+                  </div>
+                </a>
+                <a
+                  class="grid-item"
+                  href="https://xuxinjay.github.io/Netflix-Practise/"
+                  target="_blank"
+                >
+                  <img class="grid-img" src="./img/NETFLIX.PNG" alt="" />
+                  <div class="grid-text infos">
+                    <span class="name">Netflix切版練習</span>
+                    <span class="lorem"
+                      >以Netflix網站作為基底，練習網站切版</span
+                    >
+                  </div>
+                </a>
+                <a
+                  class="grid-item"
+                  href="https://xuxinjay.github.io/Netflix-Practise/"
+                  target="_blank"
+                >
+                  <img class="grid-img" src="./img/scroll.PNG" alt="" />
+                  <div class="grid-text infos">
+                    <span class="name">網頁滾動渲染練習</span>
+                    <span class="lorem"
+                      >從Youtube找到的網頁滾動渲染的素材，再自行進行切版練習</span
+                    >
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <input
+            type="radio"
+            class="tabs_radio"
+            name="tabs-example"
+            id="tab2"
+          />
+          <label for="tab2" class="tabs_label"> 網站 </label>
+          <div class="tabs_content">
+            <div class="grid-box">
+              <div class="grid-container">
+                <a
+                  class="grid-item"
+                  href="https://xuxinjay.github.io/Pomodoro/"
+                  target="_blank"
+                >
+                  <img class="grid-img" src="./img/Pomodoro.png" alt="" />
+                  <div class="grid-text infos">
+                    <span class="name">番茄鐘</span>
+                    <span class="lorem"
+                      >以HTML、CSS、JavaScript設計而成。
+                      主要功能為「倒數計時」、「計算回合數」、「明/暗模式」。</span
+                    >
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <input
+            type="radio"
+            class="tabs_radio"
+            name="tabs-example"
+            id="tab3"
+          />
+          <label for="tab3" class="tabs_label"> 小功能 </label>
+          <div class="tabs_content">
+            <div class="grid-box">
+              <div class="grid-container">
+                <a
+                  class="grid-item"
+                  href="https://xuxinjay.github.io/Pomodoro/"
+                  target="_blank"
+                >
+                  <img class="grid-img" src="./img/Pomodoro.png" alt="" />
+                  <div class="grid-text infos">
+                    <span class="name">番茄鐘</span>
+                    <span class="lorem"
+                      >以HTML、CSS、JavaScript設計而成。
+                      主要功能為「倒數計時」、「計算回合數」、「明/暗模式」。</span
+                    >
+                  </div>
+                </a>
+                <a
+                  class="grid-item"
+                  href="https://xuxinjay.github.io/Todolist-React/"
+                  target="_blank"
+                >
+                  <img class="grid-img" src="./img/TodoList.PNG" alt="" />
+                  <div class="grid-text infos">
+                    <span class="name">待辦清單</span>
+                    <span class="lorem"
+                      >採用React框架設計，內容以function
+                      Hooks編寫，並以CSS設計整體外觀，清單內容存於本地存儲，主要功能為「新增待辦事項」、「編輯」、「刪除」。</span
+                    >
+                  </div>
+                </a>
+                <a
+                  class="grid-item"
+                  href="https://xuxinjay.github.io/Gourmet-Draw/"
+                  target="_blank"
+                >
+                  <img class="grid-img" src="./img/Gourmet-Draw.png" alt="" />
+                  <div class="grid-text infos">
+                    <span class="name">美食抽籤地圖</span>
+                    <span class="lorem"
+                      >以HTML、CSS、JavaScript設計而成，導入GoogleMap
+                      API，主要功能為「查詢餐廳」、「顯示評價，步行距離等相關資料」、「亂數抽籤」。</span
+                    >
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <input
+            type="radio"
+            class="tabs_radio"
+            name="tabs-example"
+            id="tab4"
+          />
+          <label for="tab4" class="tabs_label"> 切版練習 </label>
+          <div class="tabs_content">
+            <div class="grid-box">
+              <div class="grid-container">
+                <a
+                  class="grid-item"
+                  href="https://xuxinjay.github.io/Netflix-Practise/"
+                  target="_blank"
+                >
+                  <img class="grid-img" src="./img/NETFLIX.PNG" alt="" />
+                  <div class="grid-text infos">
+                    <span class="name">Netflix切版練習</span>
+                    <span class="lorem"
+                      >以Netflix網站作為基底，練習網站切版</span
+                    >
+                  </div>
+                </a>
+                <a
+                  class="grid-item"
+                  href="https://xuxinjay.github.io/Netflix-Practise/"
+                  target="_blank"
+                >
+                  <img class="grid-img" src="./img/scroll.PNG" alt="" />
+                  <div class="grid-text infos">
+                    <span class="name">網頁滾動渲染練習</span>
+                    <span class="lorem"
+                      >從Youtube找到的網頁滾動渲染的素材，再自行進行切版練習</span
+                    >
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact_bolck">
+        <div class="contact_me">
+          <h1 class="item1" id="message">聯絡我</h1>
+          <div class="item2">
+            <div class="contact_img">
+              <i class="uil uil-envelope ui_img"></i>
+              <div>
+                <h3>信箱</h3>
+                <p>vv19950429@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact_img">
+              <i class="uil uil-phone ui_img"></i>
+              <div>
+                <h3>電話</h3>
+                <p>0981-XXX-328</p>
+              </div>
+            </div>
+            <div class="contact_img">
+              <i class="uil uil-location-point ui_img"></i>
+              <div>
+                <h3>地址</h3>
+                <p>台中市</p>
+              </div>
+            </div>
+            <!-- <div class="contact_img">
                         <i class="uil uil-instagram ui_img"></i>
                         <div>
                             <h3>instagram</h2>
                                 <p>vv19950429</p>
                         </div>
-
                     </div> -->
-                </div>
-                <div class="item3">
-                    <form action="">
-                        <h1 class="contact_think">留下你的想法</h1>
-                        <div class="contact_box">
-                            <label class="contact_title">姓名</label>
-                            <input class="contact_idea" placeholder="輸入你的名字">
-                        </div>
-                        <div class="contact_box">
-                            <label class="contact_title">電子信箱</label>
-                            <input class="contact_idea" type="email" placeholder="輸入你的電子信箱">
-                        </div>
-                        <div class="contact_box">
-                            <label class="contact_title">內容</label>
-                            <textarea class="contact_idea" name="" id="" cols="24" rows="5"
-                                placeholder="留下建議"></textarea>
-                            </fieldset>
-                            <button class="contact_btn">傳送</button>
-
-                    </form>
-                </div>
-            </div>
-        </section>
+          </div>
+          <div class="item3">
+            <form action="">
+              <h1 class="contact_think">留下你的想法</h1>
+              <div class="contact_box">
+                <label class="contact_title">姓名</label>
+                <input class="contact_idea" placeholder="輸入你的名字" />
+              </div>
+              <div class="contact_box">
+                <label class="contact_title">電子信箱</label>
+                <input
+                  class="contact_idea"
+                  type="email"
+                  placeholder="輸入你的電子信箱"
+                />
+              </div>
+              <div class="contact_box">
+                <label class="contact_title">內容</label>
+                <textarea
+                  class="contact_idea"
+                  name=""
+                  id=""
+                  cols="24"
+                  rows="5"
+                  placeholder="留下建議"
+                ></textarea>
+                <button class="contact_btn">傳送</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-        <div>
-            <h1 id="footer_title">XinJie</h1>
-            <div class="footer_img">
-                <i class="uil uil-instagram-alt"></i>
-                <i class="uil uil-facebook-messenger"></i>
-                <i class="uil uil-github"></i>
-            </div>
+      <div>
+        <h1 id="footer_title">XinJie</h1>
+        <div class="footer_img">
+          <a
+            class="footer_me_a"
+            target="_blank"
+            href="https://www.instagram.com/vv840429/"
+            ><i class="uil uil-instagram-alt"></i
+          ></a>
+          <a
+            class="footer_me_a"
+            target="_blank"
+            href="https://github.com/XuXinJay"
+            ><i class="uil uil-github"></i
+          ></a>
         </div>
+      </div>
     </footer>
-
-    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="uil uil-top-arrow-to-top"></i></button> -->
-
-</body>
-
+  </body>
 </html>
