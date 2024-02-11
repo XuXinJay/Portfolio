@@ -138,7 +138,8 @@ img {
 }
 
 .uil-instagram-alt,
-.uil-github {
+.uil-github,
+.uil-envelope {
   color: hsl(219, 48%, 8%);
 }
 
@@ -336,7 +337,7 @@ img {
 
 .button:hover {
   background-color: var(--first-color-alt);
-  transform: translateX(5px);
+  transform: translateX(10px);
   transition: 0.4s;
 }
 
@@ -347,6 +348,7 @@ img {
 }
 
 .button--flex {
+  color: hsl(219, 48%, 8%);
   display: inline-flex;
   align-items: center;
 }
