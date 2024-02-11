@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>個人作品網頁</title>
     <script src="./index.js"></script>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style/style.css" />
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
@@ -24,7 +24,7 @@
       <div class="nav_menu">
         <ul class="nav_list">
           <li class="nav_item">
-            <a href="" class="nav_link active-link">
+            <a href="#home" class="nav_link active-link">
               <i class="uil uil-estate"></i>
             </a>
           </li>
@@ -39,7 +39,7 @@
             </a>
           </li>
           <li class="nav_item">
-            <a href="#Portfolio" class="nav_link">
+            <a href="#portfolio" class="nav_link">
               <i class="uil uil-bag"></i>
             </a>
           </li>
@@ -51,9 +51,11 @@
         </ul>
       </div>
     </header>
+
     <main class="main">
+      <!-- ------------------開頭------------------- -->
       <section>
-        <div class="home_container container">
+        <div id="home" class="home_container container">
           <div class="home_content">
             <h1 class="home_title" id="about">
               Hi,I'm XinJie
@@ -84,75 +86,83 @@
         </a>
       </div>
       <!-- ------------------技能------------------- -->
-      <section class="skill_title">
-        <p id="skill">我的專長</p>
-        <h1>技能</h1>
-        <div id="test2">
-          <div class="skill_flax skill_flax_one">
+      <section id="skill" class="skill_title">
+        <h2>技能</h2>
+        <div id="skill-block">
+          <div class="skill_flex">
             <div class="skill_container">
-              <h2 class="skill_titles">前端</h2>
-              <div class="skill_info">
-                <div class="skill_data">
-                  <img src="./images/html.svg" alt="img" />
-                  <h3 class="skill_name">HTML</h3>
-                </div>
-
-                <div class="skill_data">
-                  <img src="./images/css.svg" alt="img" />
-                  <h3 class="skill_name">CSS</h3>
-                </div>
-
-                <div class="skill_data">
-                  <img src="./images/javascript.svg" alt="img" />
-                  <h3 class="skill_name">JS</h3>
-                </div>
-
-                <div class="skill_data">
-                  <img src="./images/react(白底).svg" alt="img" />
-                  <h3 class="skill_name">React</h3>
-                </div>
-
-                <div class="skill_data">
-                  <img src="./images/vue.svg" alt="img" />
-                  <h3 class="skill_name">Vue</h3>
-                </div>
-
-                <div class="skill_data">
-                  <img src="./images/jquery.svg" alt="img" />
-                  <h3 class="skill_name">jQuey</h3>
-                </div>
-              </div>
+              <h3 class="skill_titles">前端</h3>
+              <ul class="skill_info">
+                <li class="skill_data">
+                  <i class="uil uil-check-circle"></i>
+                  <p class="skill_name">HTML</p>
+                </li>
+                <li class="skill_data">
+                  <i class="uil uil-check-circle"></i>
+                  <p class="skill_name">TailwindCSS</p>
+                </li>
+                <li class="skill_data">
+                  <i class="uil uil-check-circle"></i>
+                  <p class="skill_name">CSS/SCSS</p>
+                </li>
+                <li class="skill_data">
+                  <i class="uil uil-check-circle"></i>
+                  <p class="skill_name">JavaScript</p>
+                </li>
+                <li class="skill_data">
+                  <i class="uil uil-check-circle"></i>
+                  <p class="skill_name">Vue</p>
+                </li>
+                <li class="skill_data">
+                  <i class="uil uil-check-circle"></i>
+                  <p class="skill_name">Nuxt</p>
+                </li>
+                <li class="skill_data">
+                  <i class="uil uil-check-circle"></i>
+                  <p class="skill_name">React</p>
+                </li>
+                <li class="skill_data">
+                  <i class="uil uil-check-circle"></i>
+                  <p class="skill_name">Git</p>
+                </li>
+                <li class="skill_data">
+                  <i class="uil uil-check-circle"></i>
+                  <p class="skill_name">TypeScript</p>
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="border_line skill_flax skill_flax_two">
+          <div class="skill_flex">
             <div class="skill_container">
-              <h2 class="skill_titles">後端</h2>
-              <div class="skill_info skill_RWD">
-                <div class="skill_data">
-                  <img src="./images/php.svg" alt="img" />
-                  <h3 class="skill_name">php</h3>
-                </div>
-
-                <div class="skill_data">
-                  <img src="./images/python.svg" alt="img" />
-                  <h3 class="skill_name">Python</h3>
-                </div>
-
-                <div class="skill_data">
-                  <img src="./images/mysql.svg" alt="img" />
-                  <h3 class="skill_name">MYSQL</h3>
-                </div>
-              </div>
+              <h3 class="skill_titles">後端</h3>
+              <ul class="skill_info skill_RWD">
+                <li class="skill_data">
+                  <i class="uil uil-check-circle"></i>
+                  <p class="skill_name">PHP</p>
+                </li>
+                <li class="skill_data">
+                  <i class="uil uil-check-circle"></i>
+                  <p class="skill_name">Laravel</p>
+                </li>
+                <li class="skill_data">
+                  <i class="uil uil-check-circle"></i>
+                  <p class="skill_name">Python</p>
+                </li>
+                <li class="skill_data">
+                  <i class="uil uil-check-circle"></i>
+                  <p class="skill_name">MYSQL</p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
 
-      <div class="Portfolio_title" id="Portfolio">
-        <h1>作品集</h1>
-      </div>
-
+      <!-- ------------------作品集------------------- -->
       <section class="tabs_box">
+        <div class="portfolio_title" id="portfolio">
+          <h2>作品集</h2>
+        </div>
         <div class="tabs">
           <input
             type="radio"
@@ -346,7 +356,7 @@
                     <span class="name">待辦清單</span>
                     <span class="lorem"
                       >採用React框架設計，內容以function
-                      Hooks編寫，並以CSS設計整體外觀，清單內容存於本地存儲，主要功能為「新增待辦事項」、「編輯」、「刪除」。</span
+                      Hooks編寫，主要功能為「待辦事項的增刪查改」。</span
                     >
                   </div>
                 </a>
@@ -364,7 +374,7 @@
                     <span class="name">美食抽籤地圖</span>
                     <span class="lorem"
                       >以HTML、CSS、JavaScript設計而成，導入GoogleMap
-                      API，主要功能為「查詢餐廳」、「顯示評價，步行距離等相關資料」、「亂數抽籤」。</span
+                      API，主要功能為「查詢餐廳」、「顯示評價、步行距離」、「亂數抽籤」。</span
                     >
                   </div>
                 </a>
@@ -377,9 +387,8 @@
                   <div class="grid-text infos">
                     <span class="name">AI個人助理</span>
                     <span class="lorem"
-                      >以React+vite為框架，使用@chatscope套件，搭配OpenAI的API設計而成。
-                      PS.連結僅能顯示外觀，需下載完整檔案，並修改API_KEY，即可使用功能。</span
-                    >
+                      >採用React+vite為框架，使用@chatscope套件，搭配OpenAI的API設計而成。
+                    </span>
                   </div>
                 </a>
                 <a
@@ -446,9 +455,10 @@
         </div>
       </section>
 
+      <!-- ------------------聯絡我------------------- -->
       <section class="contact_bolck">
         <div class="contact_me">
-          <h1 class="item1" id="message">聯絡我</h1>
+          <h2 class="item1" id="message">聯絡我</h2>
           <div class="item2">
             <div class="contact_img">
               <i class="uil uil-envelope ui_img"></i>
@@ -474,7 +484,7 @@
           </div>
           <div class="item3">
             <form action="">
-              <h1 class="contact_think">留下你的想法</h1>
+              <h3 class="contact_think">留下你的想法</h3>
               <div class="contact_box">
                 <label class="contact_title">姓名</label>
                 <input class="contact_idea" placeholder="輸入你的名字" />
@@ -507,7 +517,7 @@
 
     <footer class="footer">
       <div>
-        <h1 id="footer_title">XinJie</h1>
+        <h2 id="footer_title">XinJie</h2>
         <div class="footer_img">
           <a
             class="footer_me_a"
